@@ -16,7 +16,6 @@ const App = () => {
 
 const Container = styled.div`
   width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +29,8 @@ const Wrapper = styled.div`
   width: 60%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+
   align-items: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
